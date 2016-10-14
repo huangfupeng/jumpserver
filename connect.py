@@ -770,6 +770,7 @@ def main():
                 option = raw_input("\033[1;32mOpt or ID>:\033[0m ").strip()
             except EOFError:
                 nav.print_nav()
+
                 continue
             except KeyboardInterrupt:
                 sys.exit(0)
